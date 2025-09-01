@@ -1,0 +1,72 @@
+// ======Montserrat==========================
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("@/assets/fonts/Montserrat/Montserrat-Black.ttf") format("truetype"),
+    url("@/assets/fonts/Montserrat/Montserrat-Black.woff2") format("woff2");
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Montserrat-BlackItalic";
+  src: url("@/assets/fonts/Montserrat/Montserrat-BlackItalic.ttf")
+      format("truetype"),
+    url("@/assets/fonts/Montserrat/Montserrat-BlackItalic.woff2")
+      format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("@/assets/fonts/Montserrat/Montserrat-Bold.ttf") format("truetype"),
+    url("@/assets/fonts/Montserrat/Montserrat-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Montserrat-BoldItalic";
+  src: url("@/assets/fonts/Montserrat/Montserrat-BoldItalic.ttf")
+      format("truetype"),
+    url("@/assets/fonts/Montserrat/Montserrat-BoldItalic.woff2") format("woff2");
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("@/assets/fonts//Montserrat/Montserrat-SemiBold.ttf")
+      format("truetype"),
+    url("@/assets/fonts/Montserrat/Montserrat-SemiBold.woff2") format("woff0");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Montserrat-Regular";
+  src: url("@/assets/fonts/Montserrat/Montserrat-Regular.ttf")
+      format("truetype"),
+    url("@/assets/fonts/Montserrat/Montserrat-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
+
+// ======Poppins=========================
+@font-face {
+  font-family: "Poppins-BlackItalic";
+  src: url("@/assets/fonts/Poppins/Poppins-BlackItalic.ttf") format("truetype"),
+    url("@/assets/fonts/Poppins/Poppins-BlackItalic.woff2") format("woff2");
+  font-weight: 900;
+  font-style: italic;
+}
+
+// ======WorkSans=============================
+@font-face {
+  font-family: "WorkSans-Bold";
+  src: url("@/assets/fonts/WorkSans/WorkSans-Bold.ttf") format("truetype"),
+    url("@/assets/fonts/WorkSans/WorkSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "WorkSans-Regular";
+  src: url("@/assets/fonts/WorkSans/WorkSans-Regular.ttf") format("truetype"),
+    url("@/assets/fonts/WorkSans/WorkSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+}
