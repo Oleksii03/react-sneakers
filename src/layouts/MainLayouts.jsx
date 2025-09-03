@@ -7,11 +7,7 @@ import { useState } from 'react';
 function MainLayouts() {
   const [headerHeight, setHeaderHeight] = useState(0);
 
-  function handlerDomEl(domRef) {
-    setHeaderHeight(domRef.offsetHeight);
-  }
-
-  console.log(headerHeight);
+  const handlerDomEl = domRef => setHeaderHeight(domRef.offsetHeight);
 
   return (
     <div className="wrapper">

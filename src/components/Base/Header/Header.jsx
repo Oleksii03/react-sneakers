@@ -1,10 +1,9 @@
-// import React from 'react';
+import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import s from './Header.module.scss';
 import { Icon } from '@/components/Base/Icon';
 import { useEffect, useRef, useState } from 'react';
 import MobMenu from '@/components/Base/MobMenu/MobMenu';
-import PropTypes from 'prop-types';
 
 const icons = ['user', 'search', 'basket'];
 
