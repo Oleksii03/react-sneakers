@@ -10,10 +10,10 @@ $lg: 1400px;
 $xl: 1920px;
 
 // Шрифти:
-$font-primary: "Montserrat-Regular", sans-serif;
-$font-secondary: "Montserrat-Bold", sans-serif;
-$font-tertiary: "Montserrat-BlackItalic", sans-serif;
-$font-quaternary: "Montserrat-BoldItalic", sans-serif;
+$font-primary: 'Montserrat-Regular', sans-serif;
+$font-secondary: 'Montserrat-Bold', sans-serif;
+$font-tertiary: 'Montserrat-BlackItalic', sans-serif;
+$font-quaternary: 'Montserrat-BoldItalic', sans-serif;
 
 // Кольори==============
 // box-shadow
@@ -27,6 +27,7 @@ $bg-gray: rgb(239, 239, 239);
 $text-danger: rgb(255, 57, 57);
 $text-dark: rgb(0, 0, 0);
 $text-light: rgb(255, 255, 255);
+$text-gray: #a0a0a0;
 
 // universal:
 $basic-white: rgb(255, 255, 255);

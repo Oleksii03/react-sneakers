@@ -1,4 +1,15 @@
-@use './assets/style/utils/variables.scss' as *;
-@use './assets/style/utils//mixins.scss';
-@use './assets/style/fonts/fonts.scss';
-@use './assets/style/base/common.scss';
+@use '@/assets/style/utils/variables.scss' as *;
+@use '@/assets/style/utils//mixins.scss';
+@use '@/assets/style/fonts/fonts.scss';
+@use '@/assets/style/base/common.scss';
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+  background-color: #73816a;
+}

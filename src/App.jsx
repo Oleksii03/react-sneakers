@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import MainLayouts from '@/layouts/MainLayouts';
 import All from '@/pages/All/All';
-import Men from '@/pages/Men/Men';
+import Catalog from '@/pages/Catalog/Catalog';
 
 // import s from './App.module.scss';
 
@@ -11,8 +11,7 @@ function App() {
       <Routes>
         <Route path="/" element={<MainLayouts />}>
           <Route index element={<All />} />
-          {/* <Route path="woman" element={<Woman />} /> */}
-          <Route path="men" element={<Men />} />
+          <Route path="catalog" element={<Catalog />} />
         </Route>
       </Routes>
     </BrowserRouter>
