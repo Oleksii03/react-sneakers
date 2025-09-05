@@ -1,0 +1,12 @@
+.modal {
+  position: fixed;
+  inset: 0;
+  background-color: #161616e3;
+  backdrop-filter: blur(1px);
+  opacity: 0;
+  transition: all 250ms linear;
+
+  &.active {
+    opacity: 1;
+  }
+}

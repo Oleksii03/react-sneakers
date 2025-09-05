@@ -1,8 +1,16 @@
 .menu {
-  background-color: #16090992;
+  background-color: #ff0000;
   position: absolute;
+  top: 78px;
   width: 100%;
-  height: 100%;
   max-width: 375px;
-  top: 100%;
+  z-index: 99;
+
+  padding: 10px;
+  transition: transform 250ms linear;
+  transform: translateY(-100%);
+
+  &.active {
+    transform: translateY(0%);
+  }
 }
