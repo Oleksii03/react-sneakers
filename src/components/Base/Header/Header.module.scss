@@ -1,10 +1,16 @@
 @use '@/assets/style/utils/variables.scss' as *;
 
-.header {
-  padding: 25px 0;
+.wrapper {
   position: fixed;
   width: 100%;
+}
+
+.header {
+  padding: 25px 0;
   background-color: $basic-white;
+  position: absolute;
+  z-index: 100;
+  width: 100%;
 }
 
 .content {
