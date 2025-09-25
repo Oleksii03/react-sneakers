@@ -14,6 +14,7 @@ function Header({ handlerDomEl }) {
 
   const setActiveMenu = () => {
     setIsBurgerActive(prev => !prev);
+    console.log('isBurgerActive', isBurgerActive);
   };
 
   useEffect(() => {
